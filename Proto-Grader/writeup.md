@@ -12,11 +12,11 @@ Source Code: **Given**
 
 ## About the Challenge
 This challenge involves a *simple* flag checker. We are greeted by a flag input page for the user to input the flag, and it is checked by the server
-[Home Page](images/about1.jpg?raw=true "Home")
-[Home Page Rejected](images/about2.jpg?raw=true "Home Page Rejected")
+[Home Page](images/about1.PNG?raw=true "Home")
+[Home Page Rejected](images/about2.PNG?raw=true "Home Page Rejected")
 
 Using BurpSuite, we can investigate what requests are being sent as well. 
-[BurpSuite](images/about3.jpg?raw=true "BurpSuite")
+[BurpSuite](images/about3.PNG?raw=true "BurpSuite")
 When we click submit, the above JSON is being sent. We can see that our text is encoded to hex before being sent over to the server. 
 
 ## Inspecting the Source Code
