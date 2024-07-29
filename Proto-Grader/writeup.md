@@ -352,6 +352,8 @@ An interesting thing I found that when the source code's length was too large, o
 
 At first, I tried to inspect the levenstein wasm code to find some vulnerability in it. Thankfully, this was not a RE challenge. Not that a PWN challenge is any better but you get the idea. 
 
+Also it is as of writing this writeup that I have just realised i did not notice there was an entire assembly folder for the wasm code OOPS thankfully its not really relevant to the challenge :P
+
 This is my first time doing anything remotely related to pwn, so I'm glad I managed to solve it within the time allocated. Lots of braincell's were definitely lost though. 
 
 This is probably one of the best web challenges I've done (and solved). In fact, I think all of the web challenges in this CTF were pretty good. Props to the challenge creators (And thanks for giving the source code to all challenges instead of making us do blind web exploitations ;-;)
