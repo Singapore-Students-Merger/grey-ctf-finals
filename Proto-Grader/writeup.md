@@ -5,9 +5,13 @@ During the Grey Cat The Flag Finals
 
 ## Challenge Details
 Solves: **2**
+
 Difficulty: **Hard**
+
 Category: **Web (+ Pwn)**
+
 Files & Source Code: https://github.com/NUSGreyhats/greyctf24-challs-public/tree/main/finals/web/proto_grader
+
 Source Code: **Given**
 
 ## About the Challenge
