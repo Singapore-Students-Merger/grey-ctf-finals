@@ -1,6 +1,8 @@
 # Proto Grader Writeup
 By **Chua Zhong Ding** 
+
 From **Singapore Student Merge Team**
+
 During the Grey Cat The Flag Finals
 
 ## Challenge Details
