@@ -18,11 +18,16 @@ Source Code: **Given**
 
 ## About the Challenge
 This challenge involves a *simple* flag checker. We are greeted by a flag input page for the user to input the flag, and it is checked by the server
-[Home Page](images/about1.PNG?raw=true "Home")
-[Home Page Rejected](images/about2.PNG?raw=true "Home Page Rejected")
+
+<img width="404" alt="about1" src="https://github.com/user-attachments/assets/19cb8fd5-c7a9-4316-80fa-fd13cb83a43f">
+
+<img width="389" alt="about2" src="https://github.com/user-attachments/assets/63e19270-82a2-4e8d-b60f-1ddf27389c9a">
+
 
 Using BurpSuite, we can investigate what requests are being sent as well. 
-[BurpSuite](images/about3.PNG?raw=true "BurpSuite")
+
+<img width="266" alt="about3" src="https://github.com/user-attachments/assets/bbd329bf-cf63-4081-a85a-dac9b4be7322">
+
 When we click submit, the above JSON is being sent. We can see that our text is encoded to hex before being sent over to the server. 
 
 ## Inspecting the Source Code
@@ -183,6 +188,7 @@ This line calls the ``size`` of the config object, however, when this is what's 
 }
 ```
 Notice how there's a ``length`` key but no ``size`` key? This means when ``size`` key has not been set. This allows us to use prototype pollution to set the size to whatever we want. 
+
 **Example Payload**
 ```json
 {
